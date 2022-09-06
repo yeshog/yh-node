@@ -1,0 +1,40 @@
+{
+  "name": "yhioe",
+  "version": "1.0.0",
+  "description": "unpkl real time cloud service",
+  "main": "yhioe.js",
+  "engines": {
+    "node": "10.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node yhioe.js"
+  },
+  "keywords": [
+    "yhioe",
+    "unpkl",
+    "real",
+    "time",
+    "cloud",
+    "service"
+  ],
+  "author": "Yogesh N",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "cookie-session": "*",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "firebase": "^5.11.1",
+    "lodash": "^4.17.19",
+    "uuid": "*",
+    "ws": "*"
+  },
+  "devDependencies": {
+    "fetchival": "^0.3.3",
+    "node-fetch": "^2.3.0",
+    "querystring": "^0.2.0"
+  }
+}
